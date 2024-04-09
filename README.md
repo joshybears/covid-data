@@ -13,16 +13,16 @@ This project uses Mage.AI for orchestration, DBT for transformation, Postgres fo
 
 1. Make sure you have Docker installed (https://www.docker.com/products/docker-desktop/)
 2. Simply run `docker compose up` in the main directory
-  - This will pull the Mage and Postgres docker images and run it within a container on your system
+    - This will pull the Mage and Postgres docker images and run it within a container on your system
 3. To access Mage, go to `http://localhost:6789` on your browser
 4. Inside Mage you may:
-  - Process a backfill for pipeline `csse_jhu_covid_data`	to load data for certain dates into raw tables (ends Mar 9, 2023)
-  - Run pipeline `dbt_run` to process data from raw tables and publish them onto the main tables
+    - Process a backfill for pipeline `csse_jhu_covid_data`	to load data for certain dates into raw tables (ends Mar 9, 2023)
+    - Run pipeline `dbt_run` to process data from raw tables and publish them onto the main tables
 
 ### Running Jupyter Notebook
 1. Make sure you have Pipenv installed (https://pipenv.pypa.io/en/latest/installation.html)
 2. Go to the `notebooks` directory, and run `pipenv install`
-  - This will install all the libraries and dependencies that jupyter notebook needs according to the Pipfile
+    - This will install all the libraries and dependencies that jupyter notebook needs according to the Pipfile
 3. Run `pipenv run jupyter notebook`
 4. You may access the analysis file `COVID Data Analysis.ipynb`
 
