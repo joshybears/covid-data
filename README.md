@@ -1,15 +1,15 @@
-### COVID Data
+# COVID Data
 
 ## Project Overview
 
-# Description
+### Description
 
 COVID Data is a small ETL project that gets COVID-related data from the COVID-19 Data Repository by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University (https://github.com/CSSEGISandData/COVID-19/tree/master). 
 This project uses Mage.AI for orchestration, DBT for transformation, Postgres for warehousing, and allows visualization of the data via Jupyter Notebook.
 
 ## Setup Instructions
 
-# Running Mage and Postgres
+### Running Mage and Postgres
 
 1. Make sure you have Docker installed (https://www.docker.com/products/docker-desktop/)
 2. Simply run `docker compose up` in the main directory
@@ -19,14 +19,14 @@ This project uses Mage.AI for orchestration, DBT for transformation, Postgres fo
   - Process a backfill for pipeline `csse_jhu_covid_data`	to load data for certain dates into raw tables (ends Mar 9, 2023)
   - Run pipeline `dbt_run` to process data from raw tables and publish them onto the main tables
 
-# Running Jupyter Notebook
+### Running Jupyter Notebook
 1. Make sure you have Pipenv installed (https://pipenv.pypa.io/en/latest/installation.html)
 2. Go to the `notebooks` directory, and run `pipenv install`
   - This will install all the libraries and dependencies that jupyter notebook needs according to the Pipfile
 3. Run `pipenv run jupyter notebook`
 4. You may access the analysis file `COVID Data Analysis.ipynb`
 
-### Technologies Used
+# Technologies Used
 
 1. Mage AI:
   - I leveraged Mage AI for its powerful automation capabilities, which greatly streamlined our data extraction process.
@@ -37,4 +37,4 @@ This project uses Mage.AI for orchestration, DBT for transformation, Postgres fo
 5. Jupyter Notebook
   - For data exploration, analysis, and prototyping, Jupyter Notebook was indispensable. Its interactive nature allowed us to experiment with data transformations and gain valuable insights before finalizing our ETL pipeline.
 
-### Assumptions and Data Analysis
+# Assumptions and Data Analysis
