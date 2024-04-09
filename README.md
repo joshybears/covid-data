@@ -28,13 +28,9 @@ This project uses Mage.AI for orchestration, DBT for transformation, Postgres fo
 
 # Technologies Used
 
-1. Mage AI:
-  - I leveraged Mage AI for its powerful automation capabilities, which greatly streamlined our data extraction process.
-3. dbt (Data Build Tool)
-  - dbt played a pivotal role in our data transformation phase. Its SQL-based modeling approach made it easy to define and manage our data transformations efficiently.
-4. PostgreSQL
-  - I opted for PostgreSQL as the database system due to its reliability, performance, and advanced SQL features. It's been instrumental in storing and managing the data retrieved from our source.
-5. Jupyter Notebook
-  - For data exploration, analysis, and prototyping, Jupyter Notebook was indispensable. Its interactive nature allowed us to experiment with data transformations and gain valuable insights before finalizing our ETL pipeline.
+1. **Mage AI:** I leveraged Mage AI for its powerful automation capabilities, which greatly streamlined our data extraction process.
+3. **dbt (Data Build Tool):** dbt played a pivotal role in our data transformation phase. Its SQL-based modeling approach made it easy to define and manage our data transformations efficiently.
+4. **PostgreSQL:** I opted for PostgreSQL as the database system due to its reliability, performance, and advanced SQL features. It's been instrumental in storing and managing the data retrieved from our source.
+5. **Jupyter Notebook:** For data exploration, analysis, and prototyping, Jupyter Notebook was indispensable. Its interactive nature allowed us to experiment with data transformations and gain valuable insights before finalizing our ETL pipeline.
 
 # Assumptions and Data Analysis
