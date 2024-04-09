@@ -1,0 +1,13 @@
+---
+covid_data_dbt:
+  outputs:
+    dev:
+      type: postgres
+      host: postgres_db
+      user: postgres
+      password: postgres123
+      port: 5432
+      dbname: covid-data
+      schema: public
+      threads: 4
+  target: dev

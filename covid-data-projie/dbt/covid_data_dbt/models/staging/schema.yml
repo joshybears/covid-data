@@ -1,0 +1,7 @@
+version: 2
+
+models:
+  - name: stg_covid_data
+    columns:
+      - name: province_state
+      - name: load_date

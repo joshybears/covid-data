@@ -1,0 +1,10 @@
+version: 0.1.1
+default:
+  # PostgreSQL
+  POSTGRES_CONNECT_TIMEOUT: 10
+  POSTGRES_DBNAME: covid-data
+  POSTGRES_SCHEMA: public # Optional
+  POSTGRES_USER: postgres
+  POSTGRES_PASSWORD: postgres123
+  POSTGRES_HOST: postgres_db
+  POSTGRES_PORT: 5432
