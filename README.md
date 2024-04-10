@@ -34,3 +34,12 @@ This project uses Mage.AI for orchestration, DBT for transformation, Postgres fo
 5. **Jupyter Notebook:** For data exploration, analysis, and prototyping, Jupyter Notebook was indispensable. Its interactive nature allowed us to experiment with data transformations and gain valuable insights before finalizing our ETL pipeline.
 
 ## Assumptions and Data Analysis
+
+1. What are the top 5 US states with highest confirmed cases for a certain date?
+![Highest Cases](./images/1.png)
+
+2. What is the trend in number of active COVID cases over time?
+![Active Cases Trend](./images/2.png)
+
+3. What is the correlation between confirmed cases and deaths? (by date)
+![Correlation](./images/3.png)
