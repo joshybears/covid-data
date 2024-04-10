@@ -36,10 +36,13 @@ This project uses Mage.AI for orchestration, DBT for transformation, Postgres fo
 ## Assumptions and Data Analysis
 
 1. What are the top 5 US states with highest confirmed cases for a certain date?
+    - The table shows the top 5 states with the highest confirmed cases on Sep 1, 2020. California has the highest number of confirmed cases at 717,892. Texas follows with 658,712 cases. Florida, New York and Georgia round out the top 5 with 631,040, 437,757 and 272,697 confirmed cases respectively.
 ![Highest Cases](./images/1.png)
 
 2. What is the trend in number of active COVID cases over time?
+    - The line graph depicts the trend of active COVID-19 cases in the United States from September 1st, 2020, to September 30th, 2020. The y-axis represents the number of active cases, ranging from 3.7 million to 4.2 million. The graph reveals a clear upward trend, signifying a continuous rise in active cases throughout the month. Despite some fluctuations, the overall pattern indicates a worsening of the situation during this period.
 ![Active Cases Trend](./images/2.png)
 
-3. What is the correlation between confirmed cases and deaths? (by date)
+4. What is the correlation between confirmed cases and deaths? (by date)
+    - Investigating the correlation between confirmed COVID-19 cases and deaths over a specific time period, the analysis revealed a very strong positive correlation, with a coefficient of 0.9983. The top line tracked the number of confirmed cases, while the bottom line represented deaths. Both lines displayed an upward trend, signifying a rise in both cases and deaths over time. There were minor fluctuations in daily counts, but the overall pattern suggested a clear connection: as confirmed cases increased, deaths also tended to increase.
 ![Correlation](./images/3.png)
